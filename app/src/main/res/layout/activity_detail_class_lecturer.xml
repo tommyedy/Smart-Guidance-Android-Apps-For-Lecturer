@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+        <ImageView
+            android:background="@drawable/background_home"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY" />
+        <ImageView
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/ic_chevron_left_black_24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/btnCancel"
+            android:text="@string/app_name"
+            android:textColor="@color/colorWhite"
+            android:textSize="24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="15dp"
+            android:text="Information Class"
+            android:textColor="@color/colorWhite"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/nameClass_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="15dp"
+            android:text="Name Class"
+            android:textColor="@color/colorWhite"
+            android:textSize="24dp"/>
+
+        <ImageView
+            android:id="@+id/btnDelete_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="109dp"
+            android:layout_marginLeft="220dp"
+            android:layout_toRightOf="@+id/nameClass_id"
+            android:background="@drawable/ic_close_black_24dp"/>
+    </RelativeLayout>
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="fill_parent"-->
+<!--            android:orientation="vertical"-->
+<!--            android:padding="8.0dip">-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:baselineAligned="false"-->
+<!--                android:orientation="vertical"-->
+<!--                android:weightSum="1">-->
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_margin="5dp"-->
+<!--                    app:cardBackgroundColor="@color/colorWhite"-->
+<!--                    app:cardCornerRadius="5dp"-->
+<!--                    app:cardElevation="0dp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_margin="5dp"-->
+<!--                        android:orientation="vertical">-->
+<!--                        <com.google.android.material.textfield.TextInputEditText-->
+<!--                            android:id="@+id/nikLecturer_id"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="0dp"-->
+<!--                            android:hint="@string/nik"-->
+<!--                            android:inputType="textEmailAddress"-->
+<!--                            android:maxLines="1"-->
+<!--                            android:paddingStart="5dp"-->
+<!--                            android:singleLine="true" />-->
+
+<!--                        <com.google.android.material.textfield.TextInputEditText-->
+<!--                            android:id="@+id/firstname"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="10dp"-->
+<!--                            android:hint="@string/firstname"-->
+<!--                            android:inputType="textEmailAddress"-->
+<!--                            android:maxLines="1"-->
+<!--                            android:paddingStart="5dp"-->
+<!--                            android:singleLine="true" />-->
+
+
+<!--                        <com.google.android.material.textfield.TextInputEditText-->
+<!--                            android:id="@+id/lastname"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="10dp"-->
+<!--                            android:hint="@string/lastname"-->
+<!--                            android:inputType="textEmailAddress"-->
+<!--                            android:maxLines="1"-->
+<!--                            android:paddingStart="5dp"-->
+<!--                            android:singleLine="true" />-->
+
+<!--                        <com.google.android.material.textfield.TextInputEditText-->
+<!--                            android:id="@+id/email"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="0dp"-->
+<!--                            android:hint="@string/email"-->
+<!--                            android:inputType="textEmailAddress"-->
+<!--                            android:maxLines="1"-->
+<!--                            android:paddingStart="5dp"-->
+<!--                            android:singleLine="true" />-->
+
+
+<!--                        <com.google.android.material.textfield.TextInputEditText-->
+<!--                            android:id="@+id/faculty"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="10dp"-->
+<!--                            android:hint="@string/faculty"-->
+<!--                            android:inputType="textEmailAddress"-->
+<!--                            android:maxLines="1"-->
+<!--                            android:paddingStart="5dp"-->
+<!--                            android:singleLine="true" />-->
+
+
+
+<!--                        <com.google.android.material.textfield.TextInputEditText-->
+<!--                            android:id="@+id/section"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="10dp"-->
+<!--                            android:hint="@string/section"-->
+<!--                            android:inputType="textEmailAddress"-->
+<!--                            android:maxLines="1"-->
+<!--                            android:paddingStart="5dp"-->
+<!--                            android:singleLine="true" />-->
+
+<!--                        <com.google.android.material.textfield.TextInputEditText-->
+<!--                            android:id="@+id/notes"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="10dp"-->
+<!--                            android:hint="Note"-->
+<!--                            android:inputType="textEmailAddress"-->
+<!--                            android:maxLines="1"-->
+<!--                            android:paddingStart="5dp"-->
+<!--                            android:singleLine="true" />-->
+
+<!--                    </LinearLayout>-->
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/edit_profile"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:layout_marginLeft="20dp"-->
+<!--                    android:layout_marginRight="20dp"-->
+<!--                    android:background="@color/colowBoldOrange"-->
+<!--                    android:text="EDIT"-->
+<!--                    android:textColor="@color/colorWhite"/>-->
+
+
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--    </ScrollView>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listPeopleRequest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

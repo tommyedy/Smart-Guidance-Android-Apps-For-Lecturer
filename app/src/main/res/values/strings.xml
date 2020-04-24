@@ -1,0 +1,75 @@
+<resources>
+    <!--    General-->
+    <string name="app_name">SmartSchedule</string>
+    <string name="title_activity_dosen">Dosen</string>
+    <!--    General-->
+    <!--    Login-->
+    <string name="login">Sign In</string>
+    <string name="prompt_password">Password</string>
+    <!--    Login-->
+    <string name="create_new">Create</string>
+    <string name="students">Students</string>
+    <string name="lecturer">Lecturer</string>
+    <string name="title_home">Home</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_friend">Friend Request</string>
+    <string name="title_note">Note</string>
+    <string name="title_account">Account</string>
+    <string name="validate">Validate</string>
+    <string name="myNumber">Enter Verification Number</string>
+    <string name="signUp">Sign Up</string>
+    <string name="faculty">Faculty</string>
+    <string name="section">Section</string>
+    <string name="registrationForm">Registration Form</string>
+    <string name="pleaseFillThisForm">Please Fill This Form !</string>
+    <string name="nim">NIM</string>
+    <string name="email">nim@unai.edu</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="nik">NIK</string>
+    <string name="list_classData">List Class</string>
+    <string name="create_class">Create New Class</string>
+    <string name="detail_class">Detail Class</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_dosen__home">Dosen_Home</string>
+    <string name="title_activity_home__mahasiswa">Home_Mahasiswa</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_coba">coba</string>
+    <string name="title_activity_dashboard__dosen">Dashboard_Dosen</string>
+    <string name="title_activity_dasboard__mahasiswa">Dasboard_Mahasiswa</string>
+    <string name="title_activity_home__dosen">Home_Dosen</string>
+
+
+    <!--    Error Messages Form Lecturer-->
+    <string name="nikLecturerError">Fill Identity Number</string>
+    <string name="firstnameLecturerError">Fill Your Firstname</string>
+    <string name="lastnameLecturerError">Fill Your Lastname</string>
+    <string name="emailLecturerError">Fill Your Email</string>
+    <string name="emailLecturerInvalid">Use Email unai.edu</string>
+    <string name="passwordLecturerError"> Fill Your Password</string>
+    <string name="facultyLecturerError"> Select Faculty</string>
+    <string name="sectionLecturerError"> Select Section</string>
+
+
+    <!--    Error Messages Form Students-->
+    <string name="nimStudentsError"> Fill Identity Number</string>
+    <string name="firstnameStudentsError"> Fill Your Firstname</string>
+    <string name="lastnameStudentsError"> Fill Your Lastname</string>
+    <string name="emailStudentsError"> Fill Your Email</string>
+    <string name="passwordStudentsError"> Fill Your Password</string>
+    <string name="facultyStudentsError"> Select Faculty</string>
+    <string name="sectionStudentsError"> Select Section</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+
+
+</resources>

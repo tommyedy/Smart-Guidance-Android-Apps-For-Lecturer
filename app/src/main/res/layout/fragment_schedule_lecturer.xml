@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:background="@drawable/background_home"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/btnCancel"
+            android:text="@string/app_name"
+            android:textColor="@color/colorWhite"
+            android:textSize="24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/btnCancel"
+            android:text="Schedule"
+            android:textColor="@color/colorWhite"
+            android:textSize="24dp"/>
+
+
+    </RelativeLayout>
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="fill_parent"-->
+<!--            android:orientation="vertical"-->
+<!--            android:padding="8.0dip">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:baselineAligned="false"-->
+<!--                android:orientation="vertical"-->
+<!--                android:weightSum="1">-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:id="@+id/home_mRide"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:layout_margin="10dp"-->
+<!--                    android:layout_marginLeft="5dp"-->
+<!--                    android:layout_weight="0.33"-->
+<!--                    android:clickable="true"-->
+<!--                    app:cardCornerRadius="10dp"-->
+<!--                    app:cardElevation="5dp">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:background="?attr/selectableItemBackground">-->
+
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/textView3"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_alignParentBottom="true"-->
+<!--                            android:layout_centerHorizontal="true"-->
+<!--                            android:layout_marginBottom="5dp"-->
+<!--                            android:maxLines="1"-->
+<!--                            android:text="Click Here For Details"-->
+<!--                            android:textColor="#000"-->
+<!--                            android:textStyle="bold" />-->
+
+<!--                    </RelativeLayout>-->
+
+<!--                </androidx.cardview.widget.CardView>-->
+
+
+<!--            </LinearLayout>-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ListSchedule"/>
+<!--            <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--                android:id="@+id/fab"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="bottom|end"-->
+<!--                android:layout_margin="25dp"-->
+<!--                app:srcCompat="@android:drawable/ic_input_add" />-->
+
+<!--        </LinearLayout>-->
+
+
+
+<!--    </ScrollView>-->
+
+
+</LinearLayout>

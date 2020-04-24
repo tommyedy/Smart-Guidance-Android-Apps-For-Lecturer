@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartschedulelecturer">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Lecturer.Home.peopleRequestLecturer"></activity>
+        <activity android:name=".Lecturer.Note.AddNoteLecturer" />
+        <activity android:name=".Lecturer.Schedule.AddScheduleLecturer" />
+        <activity android:name=".Students.Schedule.DetailScheduleStudents" />
+        <activity android:name=".Students.Note.DetailNoteStudent" />
+        <activity android:name=".Students.Home.SearchDetailClass" />
+        <activity android:name=".Students.Home.SearchClass" />
+        <activity android:name=".Lecturer.AccountSettings.ChangePasswordLecturer" />
+        <activity android:name=".Students.MainMenu" />
+        <activity android:name=".Lecturer.Note.EditNoteLecturer" />
+        <activity android:name=".Lecturer.Note.DetailNoteLecturer" />
+        <activity android:name=".Lecturer.Schedule.EditScheduleLecturer" />
+        <activity android:name=".Lecturer.Schedule.DetailScheduleLecturer" />
+        <activity android:name=".Lecturer.Home.EditClass" />
+        <activity android:name=".Lecturer.FriendRequest.DetailFriendRequestLecturer" />
+        <activity android:name=".Lecturer.Success" />
+        <activity android:name=".Lecturer.Home.AddClass" />
+        <activity android:name=".Lecturer.Home.DetailClass" />
+        <activity android:name=".SignUpLecturer" />
+        <activity android:name=".ValidationRegistration" />
+        <activity android:name=".Lecturer.Home.MainMenu" />
+        <activity
+            android:name=".Lecturer.Dashboard"
+            android:label="@string/title_activity_dashboard" />
+        <activity
+            android:name=".Dashboard_Dosen"
+            android:label="@string/title_activity_dashboard__dosen" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".Mahasiswa.Home_Mahasiswa"
+            android:label="@string/title_activity_home__mahasiswa" />
+        <activity
+            android:name=".Lecturer.Dosen_Home"
+            android:label="@string/title_activity_dosen__home" />
+        <activity android:name=".Ex" />
+        <activity android:name=".Try_connection" />
+        <activity android:name=".ExActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".GlobalFunction.AlertReceiver" />
+    </application>
+
+</manifest>
