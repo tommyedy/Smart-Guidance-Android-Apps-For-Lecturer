@@ -9,11 +9,13 @@ import android.net.NetworkInfo;
 import android.os.Build;
 
 public class Connection {
-    private Network network;
-    private Context _context;
+    protected Network network;
+    protected Context _context;
+
     public Connection(Context context) {
         this._context = context;
     }
+
     public boolean hasInternetConnection() {
         ConnectivityManager connectivity =
                 (ConnectivityManager) _context.getSystemService(Context.CONNECTIVITY_SERVICE);
